@@ -1,1 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
 @import "tailwindcss";
+
+@theme {
+    --font-yanone: "Yanone Kaffeesatz", sans-serif;
+    --font-works-sans: "Work Sans", sans-serif;
+}

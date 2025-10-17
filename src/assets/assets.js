@@ -40,6 +40,7 @@ import mobile_icon from "./img/icons/phone.png";
 import map_icon from "./img/icons/map.png";
 import building_icon_1 from "./img/icons/building-1.png";
 import building_icon_2 from "./img/icons/building-2.png";
+import building_icon_3 from "./img/icons/building.png";
 
 export const assets = {
   white_logo,
@@ -53,6 +54,7 @@ export const assets = {
   map_icon,
   building_icon_1,
   building_icon_2,
+  building_icon_3,
   favicon,
   about_hero,
   about_lg,
