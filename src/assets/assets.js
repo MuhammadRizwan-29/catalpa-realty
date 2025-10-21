@@ -63,6 +63,8 @@ export const assets = {
   agents_hero,
   faq_hero,
   contact_hero,
+  telephoneIcon,
+  mailIcon,
 };
 
 /* Property Images */
