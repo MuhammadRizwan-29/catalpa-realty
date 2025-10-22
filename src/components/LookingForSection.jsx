@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { assets } from "../assets/assets";
+import SectionTitle from "./SectionTitle";
 
 export default function LookingForSection() {
   return (
@@ -7,14 +8,11 @@ export default function LookingForSection() {
       <div className="absolute inset-0 bg-[#46237a]/80"></div>
 
       <div className="max-w-6xl mx-auto py-4 relative z-10 px-4 xl:px-0 text-white">
-        <p className="uppercase font-yanone text-xl text-center pb-6">
-          We're Here To Help You
-        </p>
-        <h2 className="uppercase font-yanone text-7xl text-center pb-6">
-          What Are You Looking For?
-        </h2>
-        <hr className="w-14 border-2 mx-auto border-white" />
-
+        <SectionTitle
+          subTitle={"We're Here To Help You"}
+          title={"What Are You Looking For?"}
+          theme={"light"}
+        />
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 md:gap-7 ">
           <div className="flex flex-col items-center justify-center gap-5 sm:gap-7">
             <img src={assets.building_icon_2} alt="" className="mx-auto" />

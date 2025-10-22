@@ -1,3 +1,5 @@
+import SectionTitle from "./SectionTitle";
+
 export default function OurCompany() {
   return (
     <section className="relative py-[50px] sm:py-[100px]">
@@ -10,9 +12,11 @@ export default function OurCompany() {
       ></div>
       <div className="max-w-6xl mx-auto py-4 relative z-10 px-4 xl:px-0">
         <div className="uppercase font-yanone text-center text-[#46237a]">
-          <p className="text-2xl pb-6">Our Company</p>
-          <h2 className="text-7xl pb-6">Who We Are</h2>
-          <hr className="w-14 border-2 mx-auto border-[#46237a]" />
+          <SectionTitle
+            subTitle={"Our Company"}
+            title={"Who We Are"}
+            theme={"dark"}
+          />
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-7 my-14">
           <div className="flex flex-col gap-6">

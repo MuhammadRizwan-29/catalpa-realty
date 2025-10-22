@@ -1,3 +1,5 @@
+import SectionTitle from "./SectionTitle";
+
 export default function FaqSection() {
   return (
     <section className="relative py-[50px] sm:py-[100px]">
@@ -9,13 +11,11 @@ export default function FaqSection() {
         }}
       ></div>
       <div className="max-w-6xl mx-auto relative z-10 px-4 xl:px-0">
-        <div className="uppercase font-yanone text-center text-[#46237a]">
-          <p className="text-2xl pb-6">FAQ</p>
-          <h2 className="text-5xl sm:text-7xl pb-6">
-            Frequently Asked Questions
-          </h2>
-          <hr className="w-14 border-2 mx-auto border-[#46237a]" />
-        </div>
+        <SectionTitle
+          subTitle={"FAQ"}
+          title={"Frequently Asked Questions"}
+          theme={"dark"}
+        />
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-7 mt-14">
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-6">

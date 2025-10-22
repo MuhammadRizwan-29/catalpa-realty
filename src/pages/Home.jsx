@@ -5,6 +5,7 @@ import WhoWeAre from "../components/WhoWeAre";
 import LookingForSection from "../components/LookingForSection";
 import ClientCarousel from "../components/ClientCarousel";
 import CallToAction from "../components/CallToAction";
+import Carosel from "../components/Carosel";
 
 export default function Home() {
   return (
@@ -24,7 +25,8 @@ export default function Home() {
         data={offices}
       />
       <LookingForSection />
-      <ClientCarousel />
+      {/* <ClientCarousel /> */}
+      <Carosel />
       <CallToAction />
     </main>
   );

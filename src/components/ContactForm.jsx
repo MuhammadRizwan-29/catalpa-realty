@@ -5,7 +5,7 @@ export default function ContactForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
   };
-  (
+  return (
     <section className="relative py-[50px] sm:py-[100px]">
       <div className="max-w-6xl mx-auto relative z-10 px-4 xl:px-0">
         <SectionTitle
@@ -86,7 +86,7 @@ export default function ContactForm() {
           </div>
         </div>
       </div>
-      <div className="mt-10">
+      <div className="mt-10 overflow-hidden">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.033706375874!2d-73.99362322356023!3d40.73928383594421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a3b24b424f%3A0x618680d3f8c2f773!2s123%205th%20Ave%2C%20New%20York%2C%20NY%2010003%2C%20USA!5e0!3m2!1sen!2s!4v1760961274995!5m2!1sen!2s"
           width="1920"
